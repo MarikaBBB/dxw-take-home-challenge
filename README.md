@@ -21,7 +21,7 @@ This is a simple web application that allows users to search for UK Government a
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/MarikaBBB/dxw-take-home-challenge.git
    cd your-repo-name
 
 
@@ -40,7 +40,7 @@ This will load the application locally on your machine.
 ### How to Use
 - **Search for an Acronym**: Type an acronym (e.g., "BEIS") into the search box and press Enter or click the "Search" button. The corresponding organisation name will be displayed.
 - **Autocomplete**: Start typing an acronym, and suggestions will appear in the dropdown list. Click on a suggestion to search for it directly.
-Partial Matching: You can type part of an acronym (e.g., "DC") to see all matching results.
+- **Partial Matching**: You can type part of an acronym (e.g., "DC") to see all matching results.
 
 ### Known Issues
 - This is a basic implementation intended for demonstration purposes. Not all edge cases may be handled.
