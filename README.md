@@ -20,19 +20,18 @@ This is a simple web application that allows users to search for UK Government a
 #### Installation
 
 1. Clone the repository:
-   ```sh
-   git clone https://github.com/MarikaBBB/dxw-take-home-challenge.git
-   cd your-repo-name
+   ```git clone https://github.com/MarikaBBB/dxw-take-home-challenge.git```
 
+2. Navigate into the cloned directory:
+```cd dxw-take-home-challenge```
 
-2. Install dependencies (if any):
+3. Install dependencies (if any):
 ```npm install```
 
-3. Running the Application
-Start the server:
+4. Running the Application. Start the server:
 ```node server.js```
 
-4. Open your web browser and go to:
+5. Open your web browser and go to:
 http://localhost:5001
 
 This will load the application locally on your machine.
