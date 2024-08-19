@@ -6,11 +6,10 @@ const path = require('path');
 // Check if Express.js is installed
 console.log('Express is installed, version:', require('express/package').version);
 
-
 // Create an instance of Express
 const app = express();
 
-// Set the port to listen on - use environment variable or default to 5000
+// Set the port to listen on 
 const PORT = process.env.PORT || 5001;
 
 // CORS configuration to allow requests from your frontend
