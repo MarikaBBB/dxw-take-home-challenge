@@ -3,14 +3,25 @@ const express = require('express');
 const cors = require('cors');
 const path = require('path');
 
+// Check if Express.js is installed
+console.log('Express is installed, version:', require('express/package').version);
+
+
 // Create an instance of Express
 const app = express();
 
 // Set the port to listen on - use environment variable or default to 5000
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 
-// Use CORS middleware to allow cross-origin requests
-app.use(cors());
+// CORS configuration to allow requests from your frontend
+const corsOptions = {
+    origin: 'http://127.0.0.1:3000', // Allow this specific origin
+    methods: ['GET', 'POST'], // Allow specific HTTP methods
+    allowedHeaders: ['Content-Type'], // Allow specific headers
+    optionsSuccessStatus: 200 // Legacy browser support
+};
+
+app.use(cors(corsOptions)); // Apply CORS middleware
 
 // Serve static files from the 'public' directory
 app.use(express.static(path.join(__dirname, 'public')));
