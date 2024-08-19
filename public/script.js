@@ -24,7 +24,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 
-
     // Debounce function
     function debounce(func, delay) {
         let timeoutId;  // keep track of the timeout

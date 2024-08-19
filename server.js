@@ -121,6 +121,7 @@ const acronyms = {
   "WMI": "Workforce Management Information"
 };
 
+
 // Define a route to return the acronyms data as a JSON response
 app.get('/api/acronyms', (req, res) => {
   res.json(acronyms);
